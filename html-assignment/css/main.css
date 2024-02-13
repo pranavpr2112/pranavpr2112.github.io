@@ -1,0 +1,79 @@
+/* this is a CSS comment */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
+
+
+header {
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.site-title {
+    color: blue;
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #f0f0f0;
+    border-bottom: 2px solid #a0a0a0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    border: 2px solid #0e0836;
+}
+
+nav a:hover {
+    color: blue;
+}
+
+
+article {
+    padding: 20px;
+}
+
+
+blockquote {
+    margin: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-left: 5px solid #ccc;
+}
+
+
+section {
+    padding: 20px;
+}
+
+section img {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    box-shadow: 0 2px 2px 1px black;
+}
+
+
+#hobbies {
+    list-style-type: square;
+}
+
+#hobbies li:nth-child(odd) {
+    background-color: #f0f0f0;
+}
+
+
+footer {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 10px;
+}
