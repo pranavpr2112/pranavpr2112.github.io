@@ -71,6 +71,10 @@ nav ul li a {
     margin-bottom: 10px;
 }
 
+p {
+    text-align: justify;
+}
+
 .facts {
     padding: 10px;
 }
