@@ -178,6 +178,6 @@ p {
     background-color: #0056b3;
 }   
 
-footer {
-    clear: left;
+#footer p {
+    text-align: right;
 }
