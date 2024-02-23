@@ -12,8 +12,10 @@ body {
 
 .container {
     background-color: rgb(181, 255, 232);
-    max-width: 800px;
-    padding: 10px;
+    max-width: 80%; 
+    /* Change the max-width to a percentage */
+    padding: 1%; 
+    /* Use percentage-based padding */
     margin: 0 auto;
 }
 
@@ -22,11 +24,13 @@ header {
     position: relative;
     text-align: center;
     color: white;
+    
 }
 
 .header-bg {
     width: 100%;
-    height: auto;
+    height: auto; 
+    /* Let the height adjust automatically */
 }
 
 h1 {
@@ -35,7 +39,8 @@ h1 {
     left: 50%;
     transform: translate(-50%, -50%);
     margin: 0;
-    font-size: 36px;
+    font-size: 3vw; 
+    /* Use viewport width (vw) for font size */
     color: white;
 }
 
@@ -60,19 +65,25 @@ nav ul li:last-child {
 nav ul li a {
     text-decoration: none;
     color: black;
-    padding: 0 90px;
+    padding: 0 10vw; 
+    /* Use viewport width (vw) for padding */
     font-weight: bold;
+    font-size: 1.5vw; 
+    /* Use viewport width (vw) for font size */
 }
 
 #story {
-    max-width: 800px;
+    max-width: 95%; 
+    /* Change the max-width to a percentage */
     margin: 0 auto;
   }
   
 .article-img {
-    float: left;
-    margin-right: 20px;
-    margin-bottom: 10px;
+        float: left;
+        margin-right: 2%; 
+        /* Use percentage-based margin */
+        margin-bottom: 1%; 
+        /* Use percentage-based margin */
 }
 
 p {
